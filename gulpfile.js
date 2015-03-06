@@ -68,8 +68,7 @@ gulp.task('images', function() {
 
 gulp.task('files', function() {
     return gulp.src([
-        './app/manifest.yml',
-        './app/nginx.conf'
+      // place additional files here
     ])
       .pipe(gulp.dest('./public'));
 });
