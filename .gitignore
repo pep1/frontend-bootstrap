@@ -1,0 +1,19 @@
+# Directories
+node/
+node_modules/
+app/assets/components/
+public/
+.sass-cache/
+.tmp/
+
+target/
+
+# ide / editor
+.tags
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+.cache

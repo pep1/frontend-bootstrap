@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Operations Manager Dashboard">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fronten Bootstrap</title>
+
+    <!-- build:css_libs assets/css/vendor.css -->
+    <link rel="stylesheet" href="assets/components/font-awesome/css/font-awesome.css"/>
+    <!-- endbuild -->
+
+    <!-- build:css(.tmp) assets/css/app.css -->
+    <link rel="stylesheet" href="assets/stylesheets/bootstrap-custom.css"/>
+    <link rel="stylesheet" href="assets/stylesheets/main.css"/>
+    <!-- endbuild -->
+</head>
+<body>
+
+<!--[if lt IE 10]>
+<p class="browsehappy well">You are using an <strong>outdated</strong> browser. Please <a
+        href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<nav class="navbar navbar-fixed-top navbar-default" >
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand font-bold" >{{ page.title }}</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li >
+                    <a>Home</a>
+                </li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+
+<div class="container content">
+    <section>
+        <h2>Welcome to {{ page.title }}</h2>
+        <p>{{ page.description }}</p>
+
+    </section>
+</div>
+
+<!--<div class="omd-loading-backdrop fade-in" ng-show="loading"></div> -->
+
+<!-- build:js_libs assets/js/libs.js -->
+<script src="assets/components/jquery/dist/jquery.js"></script>
+<script src="assets/components/lodash/lodash.js"></script>
+<script src="assets/components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+<script src="assets/components/angular/angular.js"></script>
+<script src="assets/components/angular-resource/angular-resource.js"></script>
+<script src="assets/components/angular-sanitize/angular-sanitize.js"></script>
+<script src="assets/components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<!-- endbuild -->
+
+<!-- build:js({.tmp,app}) assets/js/app.js -->
+<script src="assets/javascripts/app/main.js"></script>
+
+<!-- inject:templates:js --><!-- endinject -->
+<!-- endbuild -->
+</body>
+</html>

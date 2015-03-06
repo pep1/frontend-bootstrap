@@ -1,0 +1,11 @@
+@import "bootstrap-variables";
+@import "../components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+
+/**
+* Custom styles here
+**/
+
+.content {
+  padding-top: $navbar-height + 10;
+}
